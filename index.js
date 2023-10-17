@@ -193,7 +193,7 @@ function addIntern() {
       },
       {
         type: "input",
-        name: "github",
+        name: "school",
         message: "Enter the intern's school name:",
         validate: (input) => {
           if (input.trim() === "") {
